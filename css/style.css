@@ -1,5 +1,29 @@
 header{
-    font-size: 40px;
-    text-align-last: right;
     background: rgb(180, 218, 119);
+    box-sizing: border-box;
+}
+
+.header_text{
+    font-size: 70px;
+    text-align: right;
+    background-color: rgb(182, 209, 219);
+}
+.headertextbox{
+    box-sizing: border-box;
+    display: inline-block;
+    background: rgb(43, 45, 163);
+    width: 65%;
+}
+
+.headerselfiebox{
+    box-sizing: border-box;
+    display: inline-block;
+    max-height: 300px;
+    width: 30%
+    border: 5px;
+    text-align: left;
+}
+.headerselfieimage{
+    max-width: 25%;
+    
 }
