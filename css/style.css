@@ -1,29 +1,54 @@
 header{
     background: rgb(180, 218, 119);
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .header_text{
-    font-size: 70px;
-    text-align: right;
+    font-size: 4em;
     background-color: rgb(182, 209, 219);
 }
+
 .headertextbox{
     box-sizing: border-box;
-    display: inline-block;
     background: rgb(43, 45, 163);
-    width: 65%;
+    max-height: 250px;
+    width: 100%;
+    position: top;
 }
 
 .headerselfiebox{
+    max-height: 250px;
+    width: 100%;
+    text-align: center;
+}
+.headerselfie{
+    height: 100%;
+    width: auto;
+}
+.navigation_bar{
+
+}
+.main_content{
     box-sizing: border-box;
-    display: inline-block;
-    max-height: 300px;
-    width: 30%
-    border: 5px;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
-.headerselfieimage{
-    max-width: 25%;
-    
+.main_content_box{
+    box-sizing: border-box;
+    margin: 10px;
+    height: 50px;
+    width: auto;
 }
+
+@media screen and (min-width: 500px) {
+    .headerselfiebox{
+        text-align: left;
+    }
+}
+
+
+
+
