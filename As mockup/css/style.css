@@ -1,0 +1,94 @@
+header{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerselfiebox{
+    max-height: 150px;
+    width: auto;
+    text-align: left;
+}
+.headerselfie{
+    height: 100%;
+    width: auto;
+}
+.header_text{
+    font-size: 2.5em;
+}
+h1{
+    font-size: 2.5em;
+    text-align: right;
+}
+h2{
+    font-size: 1.5em;
+    text-align: right;
+}
+p{
+    float: both;
+    position: top;
+    width: 100%;
+    font-size: 3.5em;
+    color: rgb(121, 119, 118);
+}
+
+.headertextbox{
+    box-sizing: border-box;
+    background: rgb(43, 45, 163);
+    width: 100%;
+    position: top;
+}
+
+
+.navigation_bar{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;    
+}
+.nav_item{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(197, 195, 195);
+    text-align: center;
+}
+.featured_work{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.featured_work_box{
+    box-sizing: border-box;
+    margin: 10px;
+    height: 50px;
+    width: auto;
+}
+
+@media screen and (min-width: 500px) {
+    .header{
+        background-image: url("/img/selfiebg.JPG");
+        background-size: cover;
+    }
+    .headerselfiebox{
+        text-align: right;
+        max-width: 30%;
+        background: none;
+    }
+    .headertextbox{
+        background: none;
+        max-height: 250px;
+        width: 70%;
+        position: top;
+    }
+
+}
+
+
+
+
