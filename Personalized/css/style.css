@@ -2,13 +2,14 @@ header{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    background-image: url("/Personalized/img/selfiebg.JPG");
+    background-size: cover;
 }
 .headerselfiebox{
     max-height: 200px;
     width: 100%;
     text-align: center;
-    background-image: url("/img/selfiebg.JPG");
-    background-size: cover;
+    
 }
 .headerselfie{
     height: 100%;
@@ -43,19 +44,22 @@ p{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;    
+    text-align: center;  
+    background-color: rgb(247, 238, 238);  
 }
 .nav_item{
     box-sizing: border-box;
     padding: 5px;
-    margin: 10px;
+    margin: auto;
     height: auto;
-    width: auto;
+    width: 100px;
     border-color: black;
-    border: 2px;
+    border: 1px;
     border-style: solid;
-    background-color: rgb(197, 195, 195);
+    background-color: rgb(119, 114, 114);
     text-align: center;
+    font-size: 1em;
+    color: white;
 }
 .featured_work{
     box-sizing: border-box;
@@ -68,25 +72,6 @@ p{
     margin: 10px;
     height: 50px;
     width: auto;
-}
-
-@media screen and (min-width: 500px) {
-    .header{
-        background-image: url("/img/selfiebg.JPG");
-        background-size: cover;
-    }
-    .headerselfiebox{
-        text-align: right;
-        max-width: 30%;
-        background: none;
-    }
-    .headertextbox{
-        background: none;
-        max-height: 250px;
-        width: 70%;
-        position: top;
-    }
-
 }
 
 
