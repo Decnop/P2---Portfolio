@@ -59,11 +59,30 @@ html {
 }
 
 header,
-.midcontent {
+.midcontent,
+.navigation_bar {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+}
+.navigation_bar{
+    text-align: center;  
+    background-color: rgb(247, 238, 238);  
+}
+.nav_item{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: auto;
+    height: auto;
+    width: 100px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(119, 114, 114);
+    text-align: center;
+    font-size: 1em;
+    color: white;
 }
 
 .header_logo_box {
@@ -126,7 +145,8 @@ header,
 	main,
 	header,
 	.midcontent,
-	.featured_work {
+	.featured_work,
+	.navigation_bar {
 		width: 900px;
 		margin-left: auto;
 		margin-right: auto;
