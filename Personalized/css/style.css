@@ -58,7 +58,8 @@ html {
 	text-align: center;
 }
 
-header,.midcontent {
+header,
+.midcontent {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
@@ -80,13 +81,13 @@ header,.midcontent {
 	width: 100%;
 }
 
-
 .featured_work {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 }
+
 .featured_work_box {
 	box-sizing: border-box;
 	margin-left: auto;
