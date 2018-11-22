@@ -7,9 +7,9 @@ Protfolio project created for Udacity Full-stack nanodegree course.
 The portfolio requires a webbrowser to run and was tested and runned on:
 
 Google Chrome: https://www.google.com/chrome/
-Microsoft Edge: https://www.microsoft.com/pt-br/windows/microsoft-edge
-Mozila Firefox: https://www.mozilla.org/pt-BR/firefox/new/
-opera: https://www.opera.com/pt-br/computer
+Microsoft Edge: https://www.microsoft.com/pt-br/windows/microsoft-edge  
+Mozila Firefox: https://www.mozilla.org/pt-BR/firefox/new/  
+opera: https://www.opera.com/pt-br/computer  
 
 Download and install your preferred webbrowser.
 
