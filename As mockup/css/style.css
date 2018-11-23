@@ -3,13 +3,14 @@ h2,
 h3,
 body,
 html {
-	margin: none;
+	margin: 0;
 	padding: 0.1px;
-	border: none;
+	border: 0;
 }
+
 img {
-    max-width: 100%;
-    max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 h1 {
@@ -28,8 +29,6 @@ h3 {
 	width: 100%;
 	font-size: 2.5em;
 	color: rgb(121, 119, 118);
-	margin-block-start: 0;
-	margin-block-end: 0;
 	text-align: left;
 }
 
@@ -37,8 +36,6 @@ h4 {
 	bottom: 1px;
 	font-size: 1em;
 	color: rgb(121, 119, 118);
-	margin-block-start: 0;
-	margin-block-end: 0;
 	text-align: center;
 }
 
@@ -48,13 +45,13 @@ hr {
 	background-color: #7d97ad;
 	width: 100%;
 }
-.container{
+
+.container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
 }
-
 
 .header {
 	box-sizing: border-box;
@@ -75,23 +72,22 @@ hr {
 
 .header_text_box {
 	box-sizing: border-box;
-	width: 100%;	
+	width: 100%;
 }
 
 .midcontent {
-	
 	width: 100%;
 }
-.midcontent_image{
+
+.midcontent_image {
 	display: none;
 	width: 100%;
 }
 
-.mid_text{
+.mid_text {
 	font-size: 1.5em;
 	text-align: justify;
 }
-
 
 .featured_work {
 	background-color: #fff3dd
@@ -106,10 +102,10 @@ hr {
 	padding: 2px;
 	padding-bottom: 40px;
 }
-.midcontent{
+
+.midcontent {
 	width: 100%;
 }
-
 
 @media screen and (min-width: 500px) {
 	h1,
@@ -130,12 +126,12 @@ hr {
 	}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 	main,
 	.header,
 	.midcontent,
 	.featured_work {
-		width: 900px;
+		width: 850px;
 		margin-left: auto;
 		margin-right: auto;
 	}
